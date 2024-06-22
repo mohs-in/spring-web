@@ -9,12 +9,12 @@
 <body>
     <div class="container">
         <h2>Spring Boot Add</h2>
-        <form action="/calculate" method="POST">
-            <label for="num1">Number 1:</label>
-            <input type="number" id="num1" name="num1" required>
+        <form action="/addUser" method="GET">
+            <label for="aid">Id</label>
+            <input type="number" id="aid" name="aid" required>
 
-            <label for="num2">Number 2:</label>
-            <input type="number" id="num2" name="num2" required>
+            <label for="aname">Name:</label>
+            <input type="text" id="aname" name="aname" required>
 
             <button type="submit">Calculate</button>
         </form>

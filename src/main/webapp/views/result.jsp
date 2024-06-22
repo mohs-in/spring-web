@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Result is: ${result}</h2>
+        <h2>${alien}</h2>
 
     </div>
 </body>
